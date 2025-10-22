@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: linear-gradient( to top, rgb(34, 0, 34),rgb(10, 10, 10));
+	color: white;
+	font-family: arial;
+	margin: 2% 2%;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 30px;
+}
+
+#titulo{
+	display: flex;
+	flex-direction: column;
+	line-height: 45px;
+	text-decoration: none;
+	color: white;
+}
+
+ul{
+	display: flex;
+	flex-direction: row;
+}
+
+li{
+	list-style-type: none;
+}
+
+.menu{
+	color: white;
+	text-decoration: none;
+	margin: 20px;
+	font-weight: 900;
+}
+
+.menu:hover{
+	color: rgb(132, 14, 201)
+}
+
+main{
+	display: flex;
+	flex-direction: row;
+}
+
+h2{
+	font-size: 75px;
+	line-height: 60px;
+	margin-bottom: 5%;
+}
+
+p{
+	font-size: 40px;
+}
+
+#conteudo{
+	margin-top: 10%;
+}
+
+span{
+	color: rgb(132, 14, 201)
+}
+
+#imagens{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 5%;
+}
+
+#logo{
+	width: 500px;
+	border-radius: 100%;
+}
+
+#rede-social{
+	display: flex;
+	flex-direction: column;
+}
+
+.insta-twitter{
+	width: 75px;
+	margin-left: 5%;
+}
